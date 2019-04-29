@@ -1,0 +1,15 @@
+{
+    "name": "hp/dic1",
+    "type": "project",
+    "require": {
+        "paquettg/php-html-parser": "^2.0",
+        "twbs/bootstrap": "^4.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ehsan Morad",
+            "email": "Ehsan.Morad@srbiau.ac.ir"
+        }
+    ]
+}
