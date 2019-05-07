@@ -11,10 +11,10 @@ use PHPHtmlParser\Dom;
 
 // Assuming you installed from Composer:
 
-
+    $your_word=$_POST["word"];
 
 	$dom = new Dom;
-	$dom->loadFromUrl('https://fastdic.com/word/درخت');
+	$dom->loadFromUrl("https://fastdic.com/word/$your_word");
 	
     //not-found
 	$contents1=$dom->find('.not-found');
